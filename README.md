@@ -1,40 +1,24 @@
-# Cotera&#46;io
+# BotwArmor.io
 
-**Cotera&#46;io**, named after the Great Fairy in Kakariko Village, is a
-website and web-app designed to help you track your armor upgrades in *The
-Legend of Zelda: Breath of the Wild* and make it easier to remember which
-items you need for that next upgrade.
+BotwArmor.io，以《塞尔达传说：旷野之息》里卡卡里科村的大妖精命名，是一个网站和网页应用，可以帮助您跟踪装备升级，更容易记住下一次升级所需的物品。
 
-In *Breath of the Wild,* the only way to check which items your armor needs
-for its next upgrade is to trek all the way back to the closest Great Fairy:
-this is super annoying if you're all the way out in the mountains already
-hunting for items. **Cotera&#46;io** aims to solve this grievance!
+在《塞尔达传说：旷野之息》中，想要了解装备的下一级升级需要什么材料，唯一的办法就是回到最近的大仙女处——如果你已经到山里去寻找材料了，这就太麻烦了！BotwArmor.io 旨在解决这个烦恼！
 
+## 贡献
 
-## Contributing
+对于任何想法、错误报告或贡献，请在[问题](https://github.com/matthew-e-brown/Cotera.io/issues)上发表评论。我很乐意与您讨论它们！您也可以提交一个带有预先制定的更改的拉取请求，但请清楚描述它们以及您做出这些更改的原因。
 
-For any all ideas, bug reports, or contributions, please open an [issue][bugs].
-I'd be happy to discuss them with you! You can feel free to submit a Pull
-Request with some pre-made changes, as well, but please describe them well and
-your reasoning for said changes.
+### 项目设置
 
+本项目使用 Vue CLI 构建，基于 Vue 3.2。因此，您可以使用 `npm run serve` 运行它以进行开发。
 
-### Project setup
-
-This project was scaffolded with the Vue CLI, and is built on Vue 3.2. So, you
-can run it for development with
-
-```console
+```
 $ npm install
 $ npm run serve
 ```
 
-And build a production-ready version (required to test PWA functionality) with
+为了测试PWA功能，构建一个可以用于生产的版本。
 
-```console
+```
 $ npm run build
 ```
-
-
-
-[bugs]: https://github.com/matthew-e-brown/Cotera.io/issues
